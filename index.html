@@ -1,0 +1,39 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color: black;">
+	<div class="calculator">
+		<div class="display">
+			<p id="result"></p>
+		</div>
+		<div class="buttons">
+			<button onclick="addToScreen('7')">7</button>
+			<button onclick="addToScreen('8')">8</button>
+			<button onclick="addToScreen('9')">9</button>
+			<button onclick="addToScreen('/')">&#247;</button>
+			<br>
+			<button onclick="addToScreen('4')">4</button>
+			<button onclick="addToScreen('5')">5</button>
+			<button onclick="addToScreen('6')">6</button>
+			<button onclick="addToScreen('*')">&times;</button>
+			<br>
+			<button onclick="addToScreen('1')">1</button>
+			<button onclick="addToScreen('2')">2</button>
+			<button onclick="addToScreen('3')">3</button>
+			<button onclick="addToScreen('-')">-</button>
+			<br>
+			<button onclick="addToScreen('0')">0</button>
+			<button onclick="addToScreen('.')">.</button>
+			<button onclick="calculate()">=</button>
+			<button onclick="addToScreen('+')">+</button>
+			<br>
+			<button onclick="clearScreen()">Clear</button>
+		</div>
+	</div>
+	<script src="scripts.js"></script>
+</body>
+</html>
