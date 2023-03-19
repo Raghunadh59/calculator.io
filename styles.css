@@ -23,7 +23,7 @@
 	padding: 10px;
 }
 button {
-	background-color: #4a32c2; /* Green */
+	background-color: #4a32c2;
 	border: 2px solid black;
 	color: white;
 	padding: 15px 32px;
@@ -33,4 +33,3 @@ button {
 	margin: 4px 2px;
 	cursor: pointer;
 }
-/*how to keep the calculator in center of the page*/
